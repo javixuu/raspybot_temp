@@ -13,10 +13,9 @@ def handle(msg):
 	command = msg['text']
 
 	print ('Got command : %s' % command)
-	if command == '/hey':
+	if command == '/check':
 		bot.sendMessage(chat_id, "LPG: %g ppm, CO: %g ppm, Smoke: %g ppm" % (perc["GAS_LPG"], perc["CO"], perc["SMOKE"]))
-	elif command == '/temp':
-		bot.sendMessage(chat_id, 'temp = %.4f' % temp)
+		bot.sendMessage(chat_id, 'temp = %.4f' % temp)	
 	else:
 		bot.sendMessage(chat_id, 'sorry mate, i am stupid')
 
