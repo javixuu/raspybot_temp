@@ -46,6 +46,9 @@ response=requests.get(send_text)
 print(response)
 
 mq = MQ();
+send_text='https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + 'SENSORS READY'
+response=requests.get(send_text)
+print(response)
 global temp
 global perc
 while 1:
