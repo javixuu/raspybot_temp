@@ -1,0 +1,8 @@
+sonoff:
+  username: jmaker3d@gmail.com
+  password: javi1999
+  scan_interval: 60 (optional, lower values than 60 won't work anymore!)
+  grace_period: 600 (optional)
+  api_region: 'eu' (optional)
+  entity_prefix: True (optional)
+  debug: False (optional)
