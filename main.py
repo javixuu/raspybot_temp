@@ -38,8 +38,8 @@ def notify():
 
 bot = telepot.Bot('1012793011:AAE-Y5p6Q6FfJWQ_6XGsVzjrLNDE64F6qcg')
 bot.message_loop(handle)
-bot_token='1012793011:AAE-Y5p6Q6FfJWQ_6XGsVzjrLNDE64F6qcg'
-bot_chatID='401663194'
+bot_token='<bot token>'
+bot_chatID='<chat id>'
 send_text='https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + 'Started, sensors ready in 30 sec'
 response=requests.get(send_text)
 print(response)
