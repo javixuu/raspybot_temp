@@ -1,4 +1,4 @@
-Instructions when doing in a new installation
+Instructions when doing in a new installation /n
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install python3-dev python3-pip
